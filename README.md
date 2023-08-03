@@ -1,5 +1,5 @@
 # Benzomouse
-A simple script designed to fix the jittery cursor issue on M1 Macbook Pro and potentially other Macs. As root volume is read-only in Mac OS Monterey, this utilizes synthetic symlinks - the script makes the necessary modifications without altering the system's security settings or any system config files.
+A simple script designed to fix the jittery cursor issue on M1 Macbook Pro and potentially other Macs. As root volume is read-only in Mac OS now, this utilizes synthetic symlinks - the script makes the necessary modifications without altering the system's security settings or any system config files.
 
 ## Underlying Issue
 
