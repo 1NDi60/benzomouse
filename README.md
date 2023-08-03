@@ -22,15 +22,19 @@ Benzomouse addresses this by standardizing the `hotx` and `hoty` values across a
 ### How to Use
 
 1. **Install Dependencies**: Make sure to install XMLStarlet as mentioned in the dependencies section above.
+
 2. **Clone or Download the Repository**: Clone this repository or download the `benzomouse.sh` script to your local machine.
+
 3. **Make the Script Executable**: Open a terminal window, navigate to the directory where the script is saved, and run:
    ```bash
    chmod +x benzomouse.sh
    ```
+
 4. **Run the Script**: Execute the script by running:
    ```bash
    ./benzomouse.sh
    ```
+
 5. **Follow the Prompts**: The script will guide you through the process and will prompt you to reboot your system.
 
 ## Reverting Changes
@@ -60,7 +64,8 @@ After these steps, the system should revert to using the original cursor files, 
 
 ## Note
 
-- **No Need to Disable SIP or Authenticated-Root**: Benzomouse does not require you to disable System Integrity Protection (SIP) or authenticated-root.
+- **No Need to Disable SIP or Authenticated-Root**: Benzomouse does not require you to disable System Integrity Protection (SIP) or authenticated-root. These methods were originally required to fix this bug, but Apple has obsoleted them.
+- 
 - **Scaled Displays**: I don't use a scaled display, nor do I use an external monitor. If needed, you can modify the script to change `hotx-scaled` and `hoty-scaled`. Replace the XMLStarlet command with the following:
 
    ```bash
