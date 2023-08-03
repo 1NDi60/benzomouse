@@ -73,11 +73,11 @@ After these steps, the system should revert to using the original cursor files, 
                    --update "/plist/dict/key[text()=\\\"hoty-scaled\\\"]/following-sibling::*[1]" --value "YOUR_HOTY-SCALE_VALUE_HERE" -L "{}"
    ```
 
-   I recommend making a backup of ~/cursors (the copy in your Users folder) before doing this, in case you need to repeatedly revert changes.
+I recommend making a backup of ~/cursors (the copy in your Users folder) before doing this, in case you need to repeatedly revert changes.
   
-   Like the `hotx` and `hoty` fix, a `hotx-scaled` and `hoty-scaled` fix probably requires consistent hot spot values.
+Like the `hotx` and `hoty` fix, a `hotx-scaled` and `hoty-scaled` fix probably requires consistent hot spot values.
   
-   Replace `YOUR_HOTX-SCALE_VALUE_HERE` and `YOUR_HOTY-SCALE_VALUE_HERE` with the desired scaled values for `hotx` and `hoty`, respectively.
+Replace `YOUR_HOTX-SCALE_VALUE_HERE` and `YOUR_HOTY-SCALE_VALUE_HERE` with the desired scaled values for `hotx` and `hoty`, respectively.
 
 
 ## License
