@@ -1,5 +1,5 @@
 # Benzomouse
-A simple script designed to fix the jittery cursor issue on M1 Macbook Pro and potentially other Macs. The jitter stems from a rendering bug causing misalignment between the hot spots of different cursors. The hot spot is the exact point within the cursor's graphical representation that corresponds to the actual screen location being pointed to. Benzomouse addresses this by standardizing the `hotx` and `hoty` values across all cursor types, ensuring the hot spots are aligned. This eliminates the discrepancy that causes the jitter, providing a smooth cursor transition experience.
+A simple script designed to fix the jittery cursor issue on M1 Macbook Pro (and potentially other Macs). The jitter stems from a rendering bug causing misalignment between the hot spots of different cursors. The hot spot is the exact point within the cursor's graphical representation that corresponds to the actual screen location being pointed to. Benzomouse addresses this by standardizing the `hotx` and `hoty` values across all cursor types, ensuring the hot spots are aligned. This eliminates the discrepancy that causes the jitter, providing a smooth cursor transition experience.
 
 As root volume is read-only in macOS now, this utilizes synthetic symlinks - the script makes the necessary modifications without altering the system's security settings or any system config files.
 
@@ -14,8 +14,6 @@ brew install xmlstarlet
 ```
 
 ## Instructions
-
-### How to Use
 
 1. **Install Dependencies**: Make sure to install XMLStarlet as mentioned in the dependencies section above.
 2. **Clone or Download the Repository**: Clone this repository or download the `benzomouse.sh` script to your local machine.
