@@ -65,7 +65,7 @@ After these steps, the system should revert to using the original cursor files, 
 ## Note
 
 - **No Need to Disable SIP or Authenticated-Root**: Benzomouse does not require you to disable System Integrity Protection (SIP) or authenticated-root. These methods were originally required to fix this bug, but Apple has obsoleted them.
-- 
+  
 - **Scaled Displays**: I don't use a scaled display, nor do I use an external monitor. If needed, you can modify the script to change `hotx-scaled` and `hoty-scaled`. Replace the XMLStarlet command with the following:
 
    ```bash
