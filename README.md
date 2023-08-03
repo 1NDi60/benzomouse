@@ -13,7 +13,7 @@ brew install xmlstarlet
 
 ## Underlying Issue
 
-The jittery cursor stems from a graphical bug (that Apple has yet to fix) causing misalignment between the hot spots of different cursors. The hot spot is the exact point within the cursor's graphical representation that corresponds to the actual screen location being pointed to. When transitioning from one cursor to another (e.g., from an arrow to a hand), if the hot spots are misaligned, it can cause a visible jump or jitter in the cursor's position on the screen.
+The jittery cursor stems from a graphical bug causing misalignment between the hot spots of different cursors. The hot spot is the exact point within the cursor's graphical representation that corresponds to the actual screen location being pointed to. When transitioning from one cursor to another (e.g., from an arrow to a hand), if the hot spots are misaligned, it can cause a visible jump or jitter in the cursor's position on the screen.
 
 Benzomouse addresses this by standardizing the `hotx` and `hoty` values across all cursor types, ensuring that the hot spots are aligned. This eliminates the discrepancy that causes the jitter, providing a smooth cursor transition experience.
 
